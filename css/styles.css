@@ -393,6 +393,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================
+   FORMULARIO DE CONTACTO
+   ========================================== */
+.contact-section .custom-block {
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section .form-label {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.contact-section .form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-section .form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgba(128, 208, 199, 0.25);
+    outline: none;
+}
+
+.contact-section .btn-primary {
+    background: linear-gradient(135deg, #13547a 0%, #80d0c7 100%);
+    border: none;
+    padding: 0.875rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(19, 84, 122, 0.3);
+}
+
+.contact-section .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(19, 84, 122, 0.4);
+}
+
+.contact-section h4 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* ==========================================
    FOOTER
    ========================================== */
 .site-footer {
