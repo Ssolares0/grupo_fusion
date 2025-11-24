@@ -52,8 +52,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .nav-logo {
@@ -69,13 +70,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-img:hover {
-    transform: scale(1.05);
+    transform: scale(2.05);
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2rem;
+    flex: 1;
+    justify-content: center;
 }
 
 .nav-link {
