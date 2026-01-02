@@ -120,5 +120,4 @@ function initActiveSection() {
     });
 }
 
-// Activar detección de sección activa si se desea
-// initActiveSection();
+
